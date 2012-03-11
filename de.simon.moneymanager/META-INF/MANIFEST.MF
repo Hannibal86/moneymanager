@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MoneyManager
+Bundle-SymbolicName: MoneyManager; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: de.simon.moneymanager.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.forms;bundle-version="3.5.100",
+ org.eclipse.nebula.widgets.calendarcombo;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ClassPath: src/sqlitejdbc-v056.jar,
+ .
